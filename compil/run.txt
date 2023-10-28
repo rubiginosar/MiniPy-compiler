@@ -1,0 +1,4 @@
+flex compil.l 
+bison -d compil.y 
+gcc lex.yy.c compil.tab.c TS.h quad.c -o projet.exe 
+projet.exe
